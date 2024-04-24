@@ -1,4 +1,4 @@
-add_requires("vulkansdk")
+add_requires("vulkansdk", "vulkan-memory-allocator")
 
 target("vk")
     set_kind("static")
@@ -7,5 +7,5 @@ target("vk")
     add_includedirs(".",{public=true})
     add_deps("rlib",{public=true})
     add_deps("util",{public=true})
-    add_packages("vulkansdk")
+    add_packages("vulkansdk", "vulkan-memory-allocator")
 target_end()

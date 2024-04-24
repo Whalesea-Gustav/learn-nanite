@@ -6,7 +6,7 @@
 #include "error.h"
 #include "image/image.h"
 #include <iostream>
-#include <vma/vk_mem_alloc.h>
+#include <vk_mem_alloc.h>
 
 using namespace std;
 
